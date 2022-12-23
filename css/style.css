@@ -7,3 +7,30 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/*******************************
+           GENERICS
+ ********************************/
+section{
+    margin-bottom: 1rem;
+}
+
+/*******************************
+           UTILS
+ ********************************/
+
+ .box{
+    width: 100%;
+    padding: 1rem 1.5rem;
+    text-align: center;
+    background-color: #006cfa;
+    border: 1px solid white;
+ }
+
+
+ .row .box .box{
+    background-color: #00e165 ;
+    border: 1px solid #006cfa ;
+ }
+
+
